@@ -1,0 +1,29 @@
+<!-- dialog_day_hour_range.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dayEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day(yyyy-MM-dd)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/startHourEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Hour(HH:mm:ss)"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/endHourEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Hour(HH:mm:ss)"
+        android:inputType="time" />
+
+</LinearLayout>
